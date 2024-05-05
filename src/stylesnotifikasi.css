@@ -1,0 +1,83 @@
+/* stylesnotifikasi.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notification {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pesanan-items {
+    list-style: none;
+    padding: 0;
+}
+
+.pesanan-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px; /* Jarak antara notifikasi pesanan */
+    transition: box-shadow 0.3s ease;
+}
+
+.pesanan-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-details {
+    display: flex;
+    align-items: center;
+}
+
+.product-thumbnail {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-right: 20px;
+    /* Tambahkan gambar atau ikon produk di sini */
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-price, .product-quantity {
+    margin: 5px 0;
+    color: #666;
+}
+
+.back-btn {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #45a049;
+}

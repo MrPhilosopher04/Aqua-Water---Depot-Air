@@ -1,0 +1,69 @@
+/* CSS untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang */
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS untuk container */
+.container {
+    max-width: 800px; /* Lebar maksimum konten */
+    margin: 20px auto; /* Atur jarak antara konten dengan tepi browser */
+    background-color: #fff; /* Warna latar belakang konten */
+    padding: 20px;
+    border-radius: 8px; /* Bentuk sudut konten */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan konten */
+}
+
+/* CSS untuk judul */
+.h2 {
+    color: #333; /* Warna teks judul */
+}
+
+/* CSS untuk notifikasi */
+.notification {
+    margin-top: 20px; /* Atur jarak antara judul dan konten notifikasi */
+    padding: 20px;
+    background-color: #f9f9f9; /* Warna latar belakang notifikasi */
+    border-radius: 8px; /* Bentuk sudut notifikasi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan notifikasi */
+}
+
+/* CSS untuk item pesanan */
+.pesanan-item {
+    margin-bottom: 20px; /* Atur jarak bawah antara item pesanan */
+    padding: 15px;
+    background-color: #fff; /* Warna latar belakang item pesanan */
+    border-radius: 8px; /* Bentuk sudut item pesanan */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan item pesanan */
+}
+
+/* CSS untuk tautan pesanan */
+.order-link {
+    text-decoration: none; /* Hapus garis bawah tautan */
+    color: #333; /* Warna teks tautan */
+}
+
+/* CSS untuk tombol Kembali */
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* CSS untuk footer */
+.footer {
+    text-align: center;
+    padding: 20px 0; /* Atur padding atas dan bawah footer */
+    background-color: #007bff; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    position: fixed; /* Footer tetap di bagian bawah layar */
+    width: 100%; /* Lebar 100% */
+    bottom: 0; /* Tempatkan di bagian bawah */
+}

@@ -1,0 +1,100 @@
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+/* Order Details */
+.order-details {
+    margin-bottom: 30px;
+}
+
+/* Order Item */
+.order-item {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Details */
+.product-details p {
+    margin: 10px 0;
+}
+
+/* Action Buttons */
+.action-buttons {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Pesanan Diterima Button */
+.confirm-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm-btn:hover {
+    background-color: #218838;
+}
+
+/* Pembatalan Pesanan Button */
+.cancel-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #c82333;
+}

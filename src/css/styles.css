@@ -1,0 +1,258 @@
+:root {
+    --color-1: rgb(39, 249, 186);
+    --color-2: rgb(0, 208, 111);
+    --color-3: linear-gradient(
+        45deg,
+        rgb(39, 249, 186) 25%,
+        rgb(30, 103, 236) 75%
+    );
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: linear-gradient(
+        180deg,
+        rgb(39, 249, 186) 50%,
+        rgb(30, 103, 236) 50%
+    );
+  }
+
+main {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/*Navbar*/
+.navbar {
+    width: 100%;
+    height: 10%;
+    background: var(--color-1);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+  }
+
+.navbar ul li  {
+    text-decoration: none;
+    margin: -1rem 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+  }
+
+/*Isi*/
+#sect-1 {
+    background: var(--color-3);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+
+#sect-1 p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    color: rgb(31, 7, 168);
+}
+
+#button-pesan {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(30, 103, 236);
+    color: #ffffff; 
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0px solid #007BFF; 
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45%;
+    font-weight: bold;
+}
+
+#button-pesan:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+
+
+#sect-2 {
+    background: var(--color-3);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+#productForm {
+
+}
+
+.table-produk {
+    position: absolute;
+    margin: 0 auto;
+    padding: auto;
+    color: #0056b3;
+}
+
+#sect-3 {
+    background: var(--color-3);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+#sect-4 {
+    background: var(--color-3);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+#sect-5 {
+    background: var(--color-3);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+#sect-6 {
+    background: var(--color-3);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+#sect-7 {
+    background: var(--color-3);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border-radius: 40% 0 0 0;
+}
+
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    font-size: 45px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+footer {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 191, 255);
+    font-size: smaller;
+    justify-content: space-between;
+}
+
+
+/*tambahan*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn-primary {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
